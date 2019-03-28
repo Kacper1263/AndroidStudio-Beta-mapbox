@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PPPW</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="main_title_text">Powstańcy</string>
+
+    <string name="mapbox_access_token">pk.eyJ1Ijoia2FjcGVyMTI2MyIsImEiOiJjanRyajBwNGEwcXBoNGFydnJjaTlyd2hpIn0.W8qoeZmY7-unZIvhmAhjHw</string>
+</resources>

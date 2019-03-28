@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/goto_place1"
+        android:title="Miejsce 1"
+    />
+    <item
+            android:id="@+id/goto_place2"
+            android:title="Miejsce 2"
+    />
+    <item
+            android:id="@+id/goto_place3"
+            android:title="Miejsce 3"
+    />
+    <item
+            android:id="@+id/goto_placeAll"
+            android:title="Wszystkie miejsca"
+    />
+    <item
+            android:id="@+id/media_route_menu_item"
+            android:title="Cast"
+            app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
+            tools:icon="@drawable/mr_button_light"
+            app:showAsAction="ifRoom"
+    />
+
+</menu>
