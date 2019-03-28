@@ -191,11 +191,19 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
             Toast.makeText(this, "Aplikacja nie posiada uprawnień do pokazania twojej lokalizacji.", Toast.LENGTH_LONG).show()
         }
 
-        if(PermissionsManager.areLocationPermissionsGranted(this)) gps_btn.visibility = View.VISIBLE
+        if(PermissionsManager.areLocationPermissionsGranted(this) && locationManager!!.isProviderEnabled(LocationManager.GPS_PROVIDER)){
+            gps_btn.visibility = View.VISIBLE
+        }
         gps_btn.setOnClickListener{
             if(PermissionsManager.areLocationPermissionsGranted(this)) {
                 val locationComponent = mapboxMap.locationComponent
                 locationComponent.cameraMode = CameraMode.TRACKING
+            }
+        }
+
+        mapboxMap.addOnCameraMoveListener {
+            if(PermissionsManager.areLocationPermissionsGranted(this) && locationManager!!.isProviderEnabled(LocationManager.GPS_PROVIDER)){
+                gps_btn.visibility = View.VISIBLE
             }
         }
     }
