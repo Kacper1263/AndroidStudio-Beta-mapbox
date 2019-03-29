@@ -16,8 +16,9 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.widget.Button
 import android.widget.Toast
-import com.google.android.gms.maps.model.*
+//import com.google.android.gms.maps.model.*
 import com.mapbox.android.core.location.LocationEngine
 import com.mapbox.android.core.permissions.PermissionsListener
 import com.mapbox.android.core.permissions.PermissionsManager
@@ -32,9 +33,13 @@ import com.mapbox.mapboxsdk.maps.Style
 import com.mapbox.mapboxsdk.plugins.locationlayer.LocationLayerPlugin
 import kotlinx.android.synthetic.main.activity_maps.*
 import timber.log.Timber
+import  com.mapbox.geojson.*
+import com.mapbox.mapboxsdk.annotations.Marker
+import com.mapbox.mapboxsdk.annotations.MarkerOptions
+import com.mapbox.mapboxsdk.geometry.LatLng
 
 
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListener{
+class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListener, MapboxMap.OnMapClickListener{
 
 
     private var permissionsManager: PermissionsManager = PermissionsManager(this)
@@ -49,9 +54,14 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
 
     private lateinit var mapView: MapView
     private lateinit var map: MapboxMap
+    private lateinit var startNaviButton: Button
+    private lateinit var originLocation: Location
+    private lateinit var originPosition: Point
+    private lateinit var destinationPosition: Point
 
     private var locationEngine: LocationEngine? = null
     private var locationLayerPlugin: LocationLayerPlugin? = null
+    private var destinationMarker: Marker? = null
 
     val zste = LatLng(49.97307239745034, 19.836487258575385)
     val tesco = LatLng(49.97331729856471, 19.830607184950175)
@@ -65,6 +75,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
         setContentView(R.layout.activity_maps)
 
         mapView = findViewById(R.id.mapView)
+        startNaviButton = findViewById(R.id.navi_btn)
         mapView?.onCreate(savedInstanceState)
 
 
@@ -86,6 +97,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
         actionBar!!.title = ""
 
         mapView.getMapAsync(this)
+
+        startNaviButton.setOnClickListener{
+            //Start navigation UI
+        }
+
     }
 
 
@@ -164,8 +180,10 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
         overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
     }
 
+    @SuppressLint("MissingPermission")
     override fun onMapReady(mapboxMap: MapboxMap) {
         this.mapboxMap = mapboxMap
+
         mapboxMap.setStyle(Style.DARK) {
 
             Timber.i("Załadowano style")
@@ -201,10 +219,39 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
             }
         }
 
+        var isNowGPSOn = false
         mapboxMap.addOnCameraMoveListener {
-            if(PermissionsManager.areLocationPermissionsGranted(this) && locationManager!!.isProviderEnabled(LocationManager.GPS_PROVIDER)){
+            if(PermissionsManager.areLocationPermissionsGranted(this) && locationManager!!.isProviderEnabled(LocationManager.GPS_PROVIDER) && !isNowGPSOn){
                 gps_btn.visibility = View.VISIBLE
+                isNowGPSOn = true
             }
+        }
+
+
+        mapboxMap.addMarker(MarkerOptions().position(zste).setTitle("Szkoła"))
+        mapboxMap.addMarker(MarkerOptions().position(tesco).setTitle("Tesco"))
+        mapboxMap.addMarker(MarkerOptions().position(lewiatan).setTitle("Lewiatan"))
+
+        mapboxMap.addOnMapClickListener { point: LatLng ->
+            if (PermissionsManager.areLocationPermissionsGranted(this)) {
+                val locationComponent = mapboxMap.locationComponent
+                val lastLocation = locationComponent?.lastKnownLocation
+                if (lastLocation != null) {
+                    originLocation = lastLocation
+                }
+
+                destinationMarker?.let{
+                    mapboxMap.removeMarker(it)
+                }
+
+                destinationMarker = mapboxMap.addMarker(MarkerOptions().position(point).title("Nowy marker"))
+                destinationPosition = Point.fromLngLat(point.longitude, point.latitude)
+                originPosition = Point.fromLngLat(originLocation.longitude, originLocation.longitude)
+
+                startNaviButton.isEnabled = true
+                startNaviButton.setBackgroundResource(R.color.mapboxBlue)
+            }
+            return@addOnMapClickListener true
         }
     }
 
@@ -255,6 +302,17 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
         } else {
             Toast.makeText(this, "Nie przyznano uprawnień!", Toast.LENGTH_LONG).show()
         }
+    }
+
+    override fun onMapClick(point: com.mapbox.mapboxsdk.geometry.LatLng): Boolean {
+        //destinationMarker = map.addMarker(MarkerOptions().position(point))
+        //destinationPosition = Point.fromLngLat(point.longitude, point.latitude)
+        //originPosition = Point.fromLngLat(originLocation.longitude, originLocation.longitude)
+
+        //startNaviButton.isEnabled = true
+        //startNaviButton.setBackgroundResource(R.color.mapboxBlue)
+
+        return true
     }
 
     override fun finish(){

@@ -68,13 +68,23 @@
                 tools:layout_editor_absoluteY="223dp" tools:layout_editor_absoluteX="8dp"/>
     </LinearLayout>
     <Button
+            android:id="@+id/near_btn"
+
             android:text="Miejsca w pobliżu"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/near_btn" android:layout_weight="1"
-            style="@android:style/Widget.Holo.Light.Button" android:textSize="24sp" android:textColor="#bbb"
-            android:layout_marginTop="16dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#9E9E9E"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.497"/>
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.497"
+            android:layout_marginTop="10dp"/>
 
 </android.support.constraint.ConstraintLayout>
