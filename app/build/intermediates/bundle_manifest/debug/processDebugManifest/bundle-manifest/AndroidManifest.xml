@@ -24,6 +24,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
         android:allowBackup="true"
@@ -33,6 +34,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
 
         <!--
@@ -67,8 +69,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.mapbox.services.android.navigation.ui.v5.MapboxNavigationActivity" />
 
+        <service android:name="com.mapbox.services.android.navigation.v5.navigation.NavigationService" /> <!-- Include the telemetry service to simplify set up (https://www.mapbox.com/telemetry) -->
+        <service android:name="com.mapbox.services.android.telemetry.service.TelemetryService" />
         <service android:name="com.mapbox.android.telemetry.TelemetryService" />
+
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="pl.kacpermarcinkiewicz.pppw.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
@@ -83,10 +94,9 @@
             android:value="26.1.0" />
 
         <provider
-            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="pl.kacpermarcinkiewicz.pppw.lifecycle-trojan"
-            android:exported="false"
-            android:multiprocess="true" />
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="pl.kacpermarcinkiewicz.pppw.com.squareup.picasso"
+            android:exported="false" />
     </application>
 
 </manifest>

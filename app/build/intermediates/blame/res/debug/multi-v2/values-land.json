@@ -13,11 +13,11 @@
                         "endOffsets": "125,203,278"
                     },
                     "to": {
-                        "startLines": "5,6,7",
+                        "startLines": "6,7,8",
                         "startColumns": "4,4,4",
-                        "startOffsets": "264,339,417",
+                        "startOffsets": "321,396,474",
                         "endColumns": "74,77,74",
-                        "endOffsets": "334,412,487"
+                        "endOffsets": "391,469,544"
                     }
                 },
                 {
@@ -28,6 +28,42 @@
                         "startOffsets": "55,125,196",
                         "endColumns": "69,70,67",
                         "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\a13f105081764d04a487def5f3c6ae84\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "784",
+                        "endLines": "16",
+                        "endColumns": "10",
+                        "endOffsets": "951"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\mapbox-android-navigation-ui-0.33.2.aar\\1409c942019051daa920669772a9e813\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,112,173,238,296",
+                        "endColumns": "56,60,64,57,50",
+                        "endOffsets": "107,168,233,291,342"
+                    },
+                    "to": {
+                        "startLines": "5,9,10,11,12",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "264,549,610,675,733",
+                        "endColumns": "56,60,64,57,50",
+                        "endOffsets": "316,605,670,728,779"
                     }
                 }
             ]

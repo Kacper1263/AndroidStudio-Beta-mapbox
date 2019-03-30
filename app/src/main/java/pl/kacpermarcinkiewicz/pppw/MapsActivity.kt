@@ -8,6 +8,7 @@ import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.location.Location
 import android.location.LocationManager
+import android.location.LocationProvider
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
@@ -20,10 +21,14 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import com.google.android.gms.maps.LocationSource
 //import com.google.android.gms.maps.model.*
 import com.mapbox.android.core.location.LocationEngine
+import com.mapbox.android.core.location.LocationEngineProvider
 import com.mapbox.android.core.permissions.PermissionsListener
 import com.mapbox.android.core.permissions.PermissionsManager
+import com.mapbox.api.directions.v5.models.DirectionsResponse
+import com.mapbox.api.directions.v5.models.DirectionsRoute
 import com.mapbox.mapboxsdk.Mapbox
 import com.mapbox.mapboxsdk.location.LocationComponentOptions
 import com.mapbox.mapboxsdk.location.modes.CameraMode
@@ -39,11 +44,17 @@ import  com.mapbox.geojson.*
 import com.mapbox.mapboxsdk.annotations.Marker
 import com.mapbox.mapboxsdk.annotations.MarkerOptions
 import com.mapbox.mapboxsdk.geometry.LatLng
+import com.mapbox.mapboxsdk.location.LocationComponent
+import com.mapbox.services.android.navigation.ui.v5.NavigationLauncher
+import com.mapbox.services.android.navigation.ui.v5.NavigationLauncherOptions
+import com.mapbox.services.android.navigation.ui.v5.route.NavigationMapRoute
+import com.mapbox.services.android.navigation.v5.navigation.NavigationRoute
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListener{
-
-
+class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListener, LocationSource.OnLocationChangedListener{
     private var permissionsManager: PermissionsManager = PermissionsManager(this)
     private lateinit var mapboxMap: MapboxMap
 
@@ -60,14 +71,19 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
     private lateinit var originLocation: Location
     private lateinit var originPosition: Point
     private lateinit var destinationPosition: Point
+    private  lateinit var currentRoute: DirectionsRoute
 
     private var locationEngine: LocationEngine? = null
     private var locationLayerPlugin: LocationLayerPlugin? = null
     private var destinationMarker: Marker? = null
+    private var navigationMapRoute: NavigationMapRoute? = null
+
 
     val zste = LatLng(49.97307239745034, 19.836487258575385)
     val tesco = LatLng(49.97331729856471, 19.830607184950175)
     val lewiatan = LatLng(49.97468931541608, 19.83366504433204)
+    private lateinit var zsteMarker: Marker
+
     var goToLocation = false
 
     val zoomLevel = 15.0f //This goes up to 21
@@ -101,9 +117,12 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
         mapView.getMapAsync(this)
 
         startNaviButton.setOnClickListener{
-            //Start navigation UI
+            val options = NavigationLauncherOptions.builder()
+                .directionsRoute(currentRoute)
+                .shouldSimulateRoute(false)
+                .build()
+            NavigationLauncher.startNavigation(this, options)
         }
-
     }
 
 
@@ -252,7 +271,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
             return@addOnMapClickListener true
         }
 
-
         if(MainActivity.place == "1"){
             mapboxMap.addMarker(MarkerOptions().position(zste).setTitle("Szkoła"))
         }
@@ -282,6 +300,41 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
                 enableLocationComponent(it)
             }
         }
+
+        mapboxMap.setOnMarkerClickListener{marker: Marker ->
+            var locationManager: LocationManager? = null
+            locationManager = getSystemService(LOCATION_SERVICE) as LocationManager?
+            if (locationManager!!.isProviderEnabled(LocationManager.GPS_PROVIDER) && PermissionsManager.areLocationPermissionsGranted(this)){
+                val locationComponent = mapboxMap.locationComponent
+                val markerPos: LatLng = marker.position
+                destinationPosition = Point.fromLngLat(markerPos.longitude, markerPos.latitude)
+                originPosition = Point.fromLngLat(locationComponent.lastKnownLocation!!.longitude, locationComponent.lastKnownLocation!!.latitude)
+
+                Toast.makeText(this, "Wyznaczam trasę. Proszę czekać...", Toast.LENGTH_LONG).show()
+
+                getRoute(originPosition,destinationPosition)
+
+                startNaviButton.isEnabled = true
+                startNaviButton.setBackgroundResource(R.color.mapboxBlue)
+            }
+            else{
+                val builder = AlertDialog.Builder(this@MapsActivity)
+                builder.setTitle("Wyznaczanie trasy do punktu.")
+                builder.setMessage("Aby wyznaczyć trasę do punktu, wymagane jest włączenie modułu GPS oraz przyznanie aplikacji uprawnień do lokalizacji!")
+                builder.setPositiveButton("OK"){dialog, which ->
+                    //
+                }
+                val dialog: AlertDialog = builder.create()
+                dialog.show()
+            }
+            return@setOnMarkerClickListener true
+        }
+    }
+
+    override fun onLocationChanged(location: Location?) {
+        location?.let {
+            originLocation = location
+        }
     }
 
     @SuppressLint("MissingPermission")
@@ -296,6 +349,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
 
             // Get an instance of the component
             val locationComponent = mapboxMap.locationComponent
+            val lastLocation = locationComponent?.lastKnownLocation
+            if (lastLocation != null) {
+                originLocation = lastLocation
+                originPosition = Point.fromLngLat(originLocation.longitude, originLocation.latitude)
+            }
 
             // Activate the component
             locationComponent.activateLocationComponent(this, loadedMapStyle)
@@ -310,6 +368,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
 
             if(goToLocation) locationComponent.cameraMode = CameraMode.TRACKING // go to user location only when enabled
             locationComponent.renderMode = RenderMode.COMPASS
+
 
 
         } else {
@@ -332,6 +391,39 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
         } else {
             Toast.makeText(this, "Nie przyznano uprawnień!", Toast.LENGTH_LONG).show()
         }
+    }
+
+    private fun getRoute(origin: Point, destination: Point){
+        this.map = mapboxMap
+        NavigationRoute.builder(applicationContext)
+            .accessToken(Mapbox.getAccessToken()!!)
+            .origin(origin)
+            .destination(destination)
+            .build()
+            .getRoute(object: Callback<DirectionsResponse>{
+                override fun onResponse(call: Call<DirectionsResponse>, response: Response<DirectionsResponse>) {
+                    val routeResponse = response?: return
+                    val body = routeResponse.body() ?: return
+                    if (body.routes().count() == 0){
+                        Log.e("Map", "No route found")
+                        return
+                    }
+
+                    if (navigationMapRoute != null){
+                        navigationMapRoute?.removeRoute()
+                    }
+                    else{
+                        navigationMapRoute = NavigationMapRoute(null, mapView, map)
+                    }
+                    navigationMapRoute?.addRoute(body.routes().first())
+
+                    currentRoute = response.body()!!.routes().first()
+                }
+
+                override fun onFailure(call: Call<DirectionsResponse>, t: Throwable) {
+                    Log.e("Map", "Error: ${t?.message}")
+                }
+            })
     }
 
 
