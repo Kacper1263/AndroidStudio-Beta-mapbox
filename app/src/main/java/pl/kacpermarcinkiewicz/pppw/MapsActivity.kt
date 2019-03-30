@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package pl.kacpermarcinkiewicz.pppw
 
 import android.annotation.SuppressLint
@@ -39,7 +41,7 @@ import com.mapbox.mapboxsdk.annotations.MarkerOptions
 import com.mapbox.mapboxsdk.geometry.LatLng
 
 
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListener, MapboxMap.OnMapClickListener{
+class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListener{
 
 
     private var permissionsManager: PermissionsManager = PermissionsManager(this)
@@ -66,6 +68,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
     val zste = LatLng(49.97307239745034, 19.836487258575385)
     val tesco = LatLng(49.97331729856471, 19.830607184950175)
     val lewiatan = LatLng(49.97468931541608, 19.83366504433204)
+    var goToLocation = false
 
     val zoomLevel = 15.0f //This goes up to 21
 
@@ -78,7 +81,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
         startNaviButton = findViewById(R.id.navi_btn)
         mapView?.onCreate(savedInstanceState)
 
-
+        // check is remember permission denied == true
         val sharedPref: SharedPreferences = getSharedPreferences(PREF_NAME, PRIVATE_MODE)
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             if(sharedPref.getString(PREF_NAME, "") == "denied"){
@@ -90,10 +93,9 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
             //return
         }
 
+        // go back button enable and set tittle to " "
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-
         val actionBar = supportActionBar
-
         actionBar!!.title = ""
 
         mapView.getMapAsync(this)
@@ -194,7 +196,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
         //check is GPS on
         var locationManager: LocationManager? = null
         locationManager = getSystemService(LOCATION_SERVICE) as LocationManager?
-
         if (!locationManager!!.isProviderEnabled(LocationManager.GPS_PROVIDER) && PermissionsManager.areLocationPermissionsGranted(this)){
             val builder = AlertDialog.Builder(this@MapsActivity)
             builder.setTitle("Moduł GPS")
@@ -209,6 +210,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
             Toast.makeText(this, "Aplikacja nie posiada uprawnień do pokazania twojej lokalizacji.", Toast.LENGTH_LONG).show()
         }
 
+        //set gps button visibility
         if(PermissionsManager.areLocationPermissionsGranted(this) && locationManager!!.isProviderEnabled(LocationManager.GPS_PROVIDER)){
             gps_btn.visibility = View.VISIBLE
         }
@@ -219,6 +221,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
             }
         }
 
+        //when camera move check is GPS now on
         var isNowGPSOn = false
         mapboxMap.addOnCameraMoveListener {
             if(PermissionsManager.areLocationPermissionsGranted(this) && locationManager!!.isProviderEnabled(LocationManager.GPS_PROVIDER) && !isNowGPSOn){
@@ -227,14 +230,9 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
             }
         }
 
-
-        mapboxMap.addMarker(MarkerOptions().position(zste).setTitle("Szkoła"))
-        mapboxMap.addMarker(MarkerOptions().position(tesco).setTitle("Tesco"))
-        mapboxMap.addMarker(MarkerOptions().position(lewiatan).setTitle("Lewiatan"))
-
         mapboxMap.addOnMapClickListener { point: LatLng ->
             if (PermissionsManager.areLocationPermissionsGranted(this)) {
-                val locationComponent = mapboxMap.locationComponent
+                /*val locationComponent = mapboxMap.locationComponent
                 val lastLocation = locationComponent?.lastKnownLocation
                 if (lastLocation != null) {
                     originLocation = lastLocation
@@ -249,9 +247,40 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
                 originPosition = Point.fromLngLat(originLocation.longitude, originLocation.longitude)
 
                 startNaviButton.isEnabled = true
-                startNaviButton.setBackgroundResource(R.color.mapboxBlue)
+                startNaviButton.setBackgroundResource(R.color.mapboxBlue)*/
             }
             return@addOnMapClickListener true
+        }
+
+
+        if(MainActivity.place == "1"){
+            mapboxMap.addMarker(MarkerOptions().position(zste).setTitle("Szkoła"))
+        }
+        else if(MainActivity.place == "2"){
+            mapboxMap.addMarker(MarkerOptions().position(tesco).setTitle("Tesco"))
+        }
+        else if(MainActivity.place == "3"){
+            mapboxMap.addMarker(MarkerOptions().position(lewiatan).setTitle("Lewiatan"))
+        }
+        else if(MainActivity.place == "all"){
+            mapboxMap.addMarker(MarkerOptions().position(zste).setTitle("Szkoła"))
+            mapboxMap.addMarker(MarkerOptions().position(tesco).setTitle("Tesco"))
+            mapboxMap.addMarker(MarkerOptions().position(lewiatan).setTitle("Lewiatan"))
+        }
+        else if(MainActivity.place == "near") {
+            mapboxMap.addMarker(MarkerOptions().position(zste).setTitle("Szkoła"))
+            mapboxMap.addMarker(MarkerOptions().position(tesco).setTitle("Tesco"))
+            mapboxMap.addMarker(MarkerOptions().position(lewiatan).setTitle("Lewiatan"))
+
+            goToLocation = true
+
+            //load style before showing user location
+            mapboxMap.setStyle(Style.DARK) {
+
+                Timber.i("Załadowano style")
+                // Map is set up and the style has loaded. Now you can add data or make other map adjustments
+                enableLocationComponent(it)
+            }
         }
     }
 
@@ -278,7 +307,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
             locationComponent.isLocationComponentEnabled = true
 
             // Set the component's camera mode
-            locationComponent.cameraMode = CameraMode.TRACKING
+
+            if(goToLocation) locationComponent.cameraMode = CameraMode.TRACKING // go to user location only when enabled
             locationComponent.renderMode = RenderMode.COMPASS
 
 
@@ -304,16 +334,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
         }
     }
 
-    override fun onMapClick(point: com.mapbox.mapboxsdk.geometry.LatLng): Boolean {
-        //destinationMarker = map.addMarker(MarkerOptions().position(point))
-        //destinationPosition = Point.fromLngLat(point.longitude, point.latitude)
-        //originPosition = Point.fromLngLat(originLocation.longitude, originLocation.longitude)
-
-        //startNaviButton.isEnabled = true
-        //startNaviButton.setBackgroundResource(R.color.mapboxBlue)
-
-        return true
-    }
 
     override fun finish(){
         super.finish()
