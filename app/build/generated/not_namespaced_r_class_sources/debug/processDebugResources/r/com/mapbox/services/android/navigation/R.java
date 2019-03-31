@@ -880,9 +880,9 @@ public final class R {
         public static final int meters = 0x7f12006d;
         public static final int miles = 0x7f12006e;
         public static final int min = 0x7f12006f;
-        public static final int notification_arrival_time_format = 0x7f12008e;
-        public static final int search_menu_title = 0x7f120097;
-        public static final int status_bar_notification_info_overflow = 0x7f120099;
+        public static final int notification_arrival_time_format = 0x7f12008f;
+        public static final int search_menu_title = 0x7f120098;
+        public static final int status_bar_notification_info_overflow = 0x7f12009a;
     }
     public static final class style {
         private style() {}

@@ -3,6 +3,7 @@ Przewodnik Po Powstaniu Warszawskim - Beta (mapbox)
 
 ## Change log:
 
+* 31.03.2019 - <b>Improvements, bug fixes</b>
 * 31.03.2019 - <b>Add directions and navigation UI</b>
 * 30.03.2019 - <b>Improvements and comments</b>
 * 29.03.2019 - <b>Add Markers, bug fixes (optimization)</b>

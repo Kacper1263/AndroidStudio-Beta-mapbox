@@ -1165,8 +1165,8 @@ public final class R {
         public static final int mr_dialog_route_header = 0x7f120085;
         public static final int mr_system_route_name = 0x7f120086;
         public static final int mr_user_route_category_name = 0x7f120087;
-        public static final int search_menu_title = 0x7f120097;
-        public static final int status_bar_notification_info_overflow = 0x7f120099;
+        public static final int search_menu_title = 0x7f120098;
+        public static final int status_bar_notification_info_overflow = 0x7f12009a;
     }
     public static final class style {
         private style() {}

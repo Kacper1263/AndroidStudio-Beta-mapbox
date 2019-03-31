@@ -974,8 +974,8 @@ public final class R {
         public static final int mapbox_telemetryImproveMap = 0x7f12006a;
         public static final int mapbox_telemetryLink = 0x7f12006b;
         public static final int mapbox_telemetrySettings = 0x7f12006c;
-        public static final int search_menu_title = 0x7f120097;
-        public static final int status_bar_notification_info_overflow = 0x7f120099;
+        public static final int search_menu_title = 0x7f120098;
+        public static final int status_bar_notification_info_overflow = 0x7f12009a;
     }
     public static final class style {
         private style() {}

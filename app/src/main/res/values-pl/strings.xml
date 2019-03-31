@@ -6,4 +6,6 @@
 
     <string name="mapbox_access_token">pk.eyJ1Ijoia2FjcGVyMTI2MyIsImEiOiJjanRyajBwNGEwcXBoNGFydnJjaTlyd2hpIn0.W8qoeZmY7-unZIvhmAhjHw</string>
     <string name="start_navigating">Rozpocznij nawigację</string>
+
+    <string name="noRouteFound">Nie znaleziono trasy</string>
 </resources>

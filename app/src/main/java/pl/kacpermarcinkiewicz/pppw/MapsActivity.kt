@@ -250,24 +250,13 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
         }
 
         mapboxMap.addOnMapClickListener { point: LatLng ->
-            if (PermissionsManager.areLocationPermissionsGranted(this)) {
-                /*val locationComponent = mapboxMap.locationComponent
-                val lastLocation = locationComponent?.lastKnownLocation
-                if (lastLocation != null) {
-                    originLocation = lastLocation
-                }
-
-                destinationMarker?.let{
-                    mapboxMap.removeMarker(it)
-                }
-
-                destinationMarker = mapboxMap.addMarker(MarkerOptions().position(point).title("Nowy marker"))
-                destinationPosition = Point.fromLngLat(point.longitude, point.latitude)
-                originPosition = Point.fromLngLat(originLocation.longitude, originLocation.longitude)
-
-                startNaviButton.isEnabled = true
-                startNaviButton.setBackgroundResource(R.color.mapboxBlue)*/
+            if (navigationMapRoute != null){
+                navigationMapRoute?.removeRoute()
             }
+
+            startNaviButton.isEnabled = false
+            startNaviButton.setBackgroundResource(R.color.mapboxGrayLight)
+
             return@addOnMapClickListener true
         }
 
@@ -312,10 +301,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
 
                 Toast.makeText(this, "Wyznaczam trasę. Proszę czekać...", Toast.LENGTH_LONG).show()
 
-                getRoute(originPosition,destinationPosition)
+                    getRoute(originPosition,destinationPosition)
 
-                startNaviButton.isEnabled = true
-                startNaviButton.setBackgroundResource(R.color.mapboxBlue)
+                    startNaviButton.isEnabled = true
+                    startNaviButton.setBackgroundResource(R.color.mapboxBlue)
+
             }
             else{
                 val builder = AlertDialog.Builder(this@MapsActivity)
@@ -327,6 +317,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
                 val dialog: AlertDialog = builder.create()
                 dialog.show()
             }
+
             return@setOnMarkerClickListener true
         }
     }
@@ -406,6 +397,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
                     val body = routeResponse.body() ?: return
                     if (body.routes().count() == 0){
                         Log.e("Map", "No route found")
+                        Toast.makeText(applicationContext, R.string.noRouteFound, Toast.LENGTH_LONG).show()
                         return
                     }
 
@@ -422,10 +414,13 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
 
                 override fun onFailure(call: Call<DirectionsResponse>, t: Throwable) {
                     Log.e("Map", "Error: ${t?.message}")
+                    Toast.makeText(applicationContext, "Error: ${t?.message}", Toast.LENGTH_LONG).show()
+
+                    startNaviButton.isEnabled = false
+                    startNaviButton.setBackgroundResource(R.color.mapboxGrayLight)
                 }
             })
     }
-
 
     override fun finish(){
         super.finish()
