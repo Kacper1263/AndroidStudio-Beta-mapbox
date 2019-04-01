@@ -3,6 +3,7 @@
 package pl.kacpermarcinkiewicz.pppw
 
 import android.annotation.SuppressLint
+import android.app.ProgressDialog
 import android.content.Intent
 import android.content.SharedPreferences
 import android.content.pm.PackageManager
@@ -12,6 +13,8 @@ import android.location.LocationProvider
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.support.constraint.ConstraintLayout
+import android.support.design.widget.Snackbar
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AlertDialog
@@ -52,6 +55,7 @@ import com.mapbox.services.android.navigation.v5.navigation.NavigationRoute
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import kotlin.coroutines.coroutineContext
 
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListener, LocationSource.OnLocationChangedListener{
@@ -61,6 +65,9 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
     companion object {
         const val LOCATION_PERMISSION_REQUEST_CODE = 1
     }
+
+    private lateinit var pd: ProgressDialog
+
 
     private var PRIVATE_MODE = 0
     private val PREF_NAME = "GPSPermissionDenied"
@@ -73,22 +80,19 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
     private lateinit var destinationPosition: Point
     private  lateinit var currentRoute: DirectionsRoute
 
-    private var locationEngine: LocationEngine? = null
     private var locationLayerPlugin: LocationLayerPlugin? = null
-    private var destinationMarker: Marker? = null
     private var navigationMapRoute: NavigationMapRoute? = null
 
 
-    val zste = LatLng(49.97307239745034, 19.836487258575385)
-    val tesco = LatLng(49.97331729856471, 19.830607184950175)
-    val lewiatan = LatLng(49.97468931541608, 19.83366504433204)
-    private lateinit var zsteMarker: Marker
+    private val zste = LatLng(49.97307239745034, 19.836487258575385)
+    private val tesco = LatLng(49.97331729856471, 19.830607184950175)
+    private val lewiatan = LatLng(49.97468931541608, 19.83366504433204)
 
-    var goToLocation = false
-
-    val zoomLevel = 15.0f //This goes up to 21
+    private var goToLocation = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        pd = ProgressDialog(this)
+
         super.onCreate(savedInstanceState)
         Mapbox.getInstance(applicationContext,getString(R.string.mapbox_access_token))
         setContentView(R.layout.activity_maps)
@@ -117,11 +121,15 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
         mapView.getMapAsync(this)
 
         startNaviButton.setOnClickListener{
-            val options = NavigationLauncherOptions.builder()
-                .directionsRoute(currentRoute)
-                .shouldSimulateRoute(false)
-                .build()
-            NavigationLauncher.startNavigation(this, options)
+            // Check is currentRoute initialized if you don't want app crash ;)
+            if (!this::currentRoute.isInitialized) Snackbar.make(ConstraintLayout, "Spróbuj ponownie za chwilę", Snackbar.LENGTH_LONG).show()
+            else {
+                val options = NavigationLauncherOptions.builder()
+                    .directionsRoute(currentRoute)
+                    .shouldSimulateRoute(false)
+                    .build()
+                NavigationLauncher.startNavigation(this, options)
+            }
         }
     }
 
@@ -295,16 +303,26 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
             locationManager = getSystemService(LOCATION_SERVICE) as LocationManager?
             if (locationManager!!.isProviderEnabled(LocationManager.GPS_PROVIDER) && PermissionsManager.areLocationPermissionsGranted(this)){
                 val locationComponent = mapboxMap.locationComponent
-                val markerPos: LatLng = marker.position
-                destinationPosition = Point.fromLngLat(markerPos.longitude, markerPos.latitude)
-                originPosition = Point.fromLngLat(locationComponent.lastKnownLocation!!.longitude, locationComponent.lastKnownLocation!!.latitude)
 
-                Toast.makeText(this, "Wyznaczam trasę. Proszę czekać...", Toast.LENGTH_LONG).show()
+                if (locationComponent.lastKnownLocation == null) Snackbar.make(ConstraintLayout, "Spróbuj ponownie za chwilę", Snackbar.LENGTH_LONG).show()
+                else {
+                    val markerPos: LatLng = marker.position
+                    destinationPosition = Point.fromLngLat(markerPos.longitude, markerPos.latitude)
+                    originPosition = Point.fromLngLat(
+                        locationComponent.lastKnownLocation!!.longitude,
+                        locationComponent.lastKnownLocation!!.latitude
+                    )
 
-                    getRoute(originPosition,destinationPosition)
+                    pd.setTitle("Ładowanie")
+                    pd.setMessage("Trwa szukanie najlepszej trasy...")
+                    pd.setInverseBackgroundForced(true)
+                    pd.show()
+
+                    getRoute(originPosition, destinationPosition)
 
                     startNaviButton.isEnabled = true
                     startNaviButton.setBackgroundResource(R.color.mapboxBlue)
+                }
 
             }
             else{
@@ -393,6 +411,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
             .build()
             .getRoute(object: Callback<DirectionsResponse>{
                 override fun onResponse(call: Call<DirectionsResponse>, response: Response<DirectionsResponse>) {
+                    pd.dismiss()
+
                     val routeResponse = response?: return
                     val body = routeResponse.body() ?: return
                     if (body.routes().count() == 0){
@@ -413,6 +433,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , PermissionsListen
                 }
 
                 override fun onFailure(call: Call<DirectionsResponse>, t: Throwable) {
+                    pd.dismiss()
                     Log.e("Map", "Error: ${t?.message}")
                     Toast.makeText(applicationContext, "Error: ${t?.message}", Toast.LENGTH_LONG).show()
 

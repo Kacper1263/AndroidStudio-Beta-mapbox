@@ -1,0 +1,395 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
+MERGED from [com.android.support:mediarouter-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-28.0.0.aar\cddb66fbbd8ca75a22700f3a310eb384\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.11.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-plugin-locationlayer-0.11.0.aar\6eff28fbd3c3911bf43344dbdeb50938\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-ui-0.33.2.aar\1409c942019051daa920669772a9e813\AndroidManifest.xml:2:1-13:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v7:0.5.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-plugin-annotation-v7-0.5.0.aar\a10e9a0ca76ce3cbbd93ab041399f83f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:2:1-20:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-0.33.2.aar\6eb3b36369b269a9226dfdeefa27fb7b\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a13f105081764d04a487def5f3c6ae84\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\291c0fe39a556d178ca961f207d15365\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\89930ba12732aa0a57cc03c2e08f8c6c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\0bc0d22209e884325a86d87605cb2e8b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:2:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:2:1-14:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f9df9b64e06d5a69eaa85a25c31ab01c\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2b71d02f995613e53179da07b1156123\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\7856c66234a9792bedc4adcbe4a3b527\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\1852413885f24479bbf72aa2909d20d2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\f6f8ba3d62ebe168562eca25a6a93a15\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9cd890746e70147afb5bbea51c1ea5fb\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\5f5b6a3cd5194313dc93d01a274c958b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:palette-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\palette-v7-28.0.0.aar\ec9f7c7a282cd684437c5c1dd4d9f03c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\9bcae6e883b9b55e6b39e3b35a702cb1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\02eedb15bd948514280504aa3558c3fb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\5ca00b4df06461025059f30b71e0accc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\4b753b2f7c4edce8ff6271cb52a78398\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\455732be2fea42f3c400ccba85501dee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\300b5b008bb9cb6c1bfd305042db07a0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.4.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-gestures-0.4.0.aar\a5a4dd0db96a6a3d19ade8b47ad5c0b1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\ded3567c20c5e031e1b4b27edc067529\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\aff036584c896114a0c3337f986c160d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2ef4521d527097fa716a9627b05dacbc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\6a6cc38664da5b574669b302ab92d3ee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\e4cc48d182f18514c31be6dc2192f1e1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\d6283e186a104646725978924cb313f6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\c78ff4b81d3a20eaf09a6adbf3ddf231\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\e9f6c959a16e4388ff9499bf079b779d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8c5030c18da2d35527b524e12f23a1d7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2305a302da1d1f69ed6f2148e562f443\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\2b81502c0d31843899adbe0bebe45a06\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\0f36109d1b7292f2622288ab1a5e8629\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\66fbc85488c0ae1b5b4122df31ae569b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\abf7c9b34b20cdc26ce13cc6520b4364\AndroidManifest.xml:2:1-14:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6a5337a6c5dd6f48b89b37bf5c6d8857\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\77c639b0f527804d909b822af6ce3aff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\0c7192b09c11ecb95fb29136599cfefc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\867c91377970cac4500d9e28f5651456\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e9f10f5204bc301fcece6ca965b18da7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\bd61c0aba59ba71ffd56d7ef4828ebaa\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7328dbdae648f988ba344eb0b033c214\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7e83d5fc9cfbb4ce35d0138d4eef44e1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\90a06a0dbdf12fba875bf7e0be0fee48\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d09971c5dd8ebb508b1443d95a7cc096\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\timber-4.7.1.aar\4874dfde1d0f307ead5d6f0b43da16a9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:6.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-navigation-native-6.0.0.aar\2e36e361680d3dd3bb8a50b40c2b1eef\AndroidManifest.xml:2:1-7:12
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:3:11-48
+		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
+		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
+		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:10:5-78
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:15:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:15:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:10:22-76
+application
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:12:5-54:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-ui-0.33.2.aar\1409c942019051daa920669772a9e813\AndroidManifest.xml:9:5-11:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-ui-0.33.2.aar\1409c942019051daa920669772a9e813\AndroidManifest.xml:9:5-11:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-0.33.2.aar\6eb3b36369b269a9226dfdeefa27fb7b\AndroidManifest.xml:11:5-15:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-0.33.2.aar\6eb3b36369b269a9226dfdeefa27fb7b\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a13f105081764d04a487def5f3c6ae84\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a13f105081764d04a487def5f3c6ae84\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\89930ba12732aa0a57cc03c2e08f8c6c\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\89930ba12732aa0a57cc03c2e08f8c6c\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\0bc0d22209e884325a86d87605cb2e8b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\0bc0d22209e884325a86d87605cb2e8b\AndroidManifest.xml:7:5-20
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:18:5-20:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:18:5-20:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f9df9b64e06d5a69eaa85a25c31ab01c\AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f9df9b64e06d5a69eaa85a25c31ab01c\AndroidManifest.xml:22:5-28:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2b71d02f995613e53179da07b1156123\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2b71d02f995613e53179da07b1156123\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\7856c66234a9792bedc4adcbe4a3b527\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\7856c66234a9792bedc4adcbe4a3b527\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\1852413885f24479bbf72aa2909d20d2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\1852413885f24479bbf72aa2909d20d2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\f6f8ba3d62ebe168562eca25a6a93a15\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\f6f8ba3d62ebe168562eca25a6a93a15\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9cd890746e70147afb5bbea51c1ea5fb\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9cd890746e70147afb5bbea51c1ea5fb\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2305a302da1d1f69ed6f2148e562f443\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2305a302da1d1f69ed6f2148e562f443\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\2b81502c0d31843899adbe0bebe45a06\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\2b81502c0d31843899adbe0bebe45a06\AndroidManifest.xml:22:5-23:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\abf7c9b34b20cdc26ce13cc6520b4364\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\abf7c9b34b20cdc26ce13cc6520b4364\AndroidManifest.xml:7:5-12:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\timber-4.7.1.aar\4874dfde1d0f307ead5d6f0b43da16a9\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\timber-4.7.1.aar\4874dfde1d0f307ead5d6f0b43da16a9\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2305a302da1d1f69ed6f2148e562f443\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:17:13-39
+	android:label
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:15:13-45
+	android:roundIcon
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:16:13-58
+	android:icon
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:14:13-47
+	android:allowBackup
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:13:13-39
+	android:theme
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:18:13-44
+meta-data#com.google.android.geo.API_KEY
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:28:9-30:58
+	android:value
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:30:17-56
+	android:name
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:29:17-62
+meta-data#preloaded_fonts
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:31:9-94
+	android:resource
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:31:51-92
+	android:name
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:31:20-50
+activity#pl.kacpermarcinkiewicz.pppw.MapsActivity
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:33:9-46:20
+	android:parentActivityName
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:36:17-59
+	android:label
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:35:17-60
+	android:name
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:34:17-45
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:40:13-44:29
+action#android.intent.action.VIEW
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:41:17-68
+	android:name
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.DEFAULT
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:43:17-75
+	android:name
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:43:27-73
+activity#pl.kacpermarcinkiewicz.pppw.MainActivity
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:47:9-53:20
+	android:name
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:47:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:48:13-52:29
+action#android.intent.action.MAIN
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:49:17-68
+	android:name
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:49:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:51:17-76
+	android:name
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:51:27-74
+uses-sdk
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:mediarouter-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-28.0.0.aar\cddb66fbbd8ca75a22700f3a310eb384\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-28.0.0.aar\cddb66fbbd8ca75a22700f3a310eb384\AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.11.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-plugin-locationlayer-0.11.0.aar\6eff28fbd3c3911bf43344dbdeb50938\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.11.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-plugin-locationlayer-0.11.0.aar\6eff28fbd3c3911bf43344dbdeb50938\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-ui-0.33.2.aar\1409c942019051daa920669772a9e813\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-ui-0.33.2.aar\1409c942019051daa920669772a9e813\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v7:0.5.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-plugin-annotation-v7-0.5.0.aar\a10e9a0ca76ce3cbbd93ab041399f83f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v7:0.5.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-plugin-annotation-v7-0.5.0.aar\a10e9a0ca76ce3cbbd93ab041399f83f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-0.33.2.aar\6eb3b36369b269a9226dfdeefa27fb7b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-0.33.2.aar\6eb3b36369b269a9226dfdeefa27fb7b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a13f105081764d04a487def5f3c6ae84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a13f105081764d04a487def5f3c6ae84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\291c0fe39a556d178ca961f207d15365\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\291c0fe39a556d178ca961f207d15365\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\89930ba12732aa0a57cc03c2e08f8c6c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\89930ba12732aa0a57cc03c2e08f8c6c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\0bc0d22209e884325a86d87605cb2e8b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\0bc0d22209e884325a86d87605cb2e8b\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:11:5-13:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:11:5-13:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f9df9b64e06d5a69eaa85a25c31ab01c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f9df9b64e06d5a69eaa85a25c31ab01c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2b71d02f995613e53179da07b1156123\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2b71d02f995613e53179da07b1156123\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\7856c66234a9792bedc4adcbe4a3b527\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\7856c66234a9792bedc4adcbe4a3b527\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\1852413885f24479bbf72aa2909d20d2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\1852413885f24479bbf72aa2909d20d2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\f6f8ba3d62ebe168562eca25a6a93a15\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\f6f8ba3d62ebe168562eca25a6a93a15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9cd890746e70147afb5bbea51c1ea5fb\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9cd890746e70147afb5bbea51c1ea5fb\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\5f5b6a3cd5194313dc93d01a274c958b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\5f5b6a3cd5194313dc93d01a274c958b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\palette-v7-28.0.0.aar\ec9f7c7a282cd684437c5c1dd4d9f03c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\palette-v7-28.0.0.aar\ec9f7c7a282cd684437c5c1dd4d9f03c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\9bcae6e883b9b55e6b39e3b35a702cb1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\9bcae6e883b9b55e6b39e3b35a702cb1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\02eedb15bd948514280504aa3558c3fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\02eedb15bd948514280504aa3558c3fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\5ca00b4df06461025059f30b71e0accc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\5ca00b4df06461025059f30b71e0accc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\4b753b2f7c4edce8ff6271cb52a78398\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\4b753b2f7c4edce8ff6271cb52a78398\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\455732be2fea42f3c400ccba85501dee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\455732be2fea42f3c400ccba85501dee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\300b5b008bb9cb6c1bfd305042db07a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\300b5b008bb9cb6c1bfd305042db07a0\AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.4.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-gestures-0.4.0.aar\a5a4dd0db96a6a3d19ade8b47ad5c0b1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.4.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-gestures-0.4.0.aar\a5a4dd0db96a6a3d19ade8b47ad5c0b1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\ded3567c20c5e031e1b4b27edc067529\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\ded3567c20c5e031e1b4b27edc067529\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\aff036584c896114a0c3337f986c160d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\aff036584c896114a0c3337f986c160d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2ef4521d527097fa716a9627b05dacbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2ef4521d527097fa716a9627b05dacbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\6a6cc38664da5b574669b302ab92d3ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\6a6cc38664da5b574669b302ab92d3ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\e4cc48d182f18514c31be6dc2192f1e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\e4cc48d182f18514c31be6dc2192f1e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\d6283e186a104646725978924cb313f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\d6283e186a104646725978924cb313f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\c78ff4b81d3a20eaf09a6adbf3ddf231\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\c78ff4b81d3a20eaf09a6adbf3ddf231\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\e9f6c959a16e4388ff9499bf079b779d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\e9f6c959a16e4388ff9499bf079b779d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8c5030c18da2d35527b524e12f23a1d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8c5030c18da2d35527b524e12f23a1d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2305a302da1d1f69ed6f2148e562f443\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2305a302da1d1f69ed6f2148e562f443\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\2b81502c0d31843899adbe0bebe45a06\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\2b81502c0d31843899adbe0bebe45a06\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\0f36109d1b7292f2622288ab1a5e8629\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\0f36109d1b7292f2622288ab1a5e8629\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\66fbc85488c0ae1b5b4122df31ae569b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\66fbc85488c0ae1b5b4122df31ae569b\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\abf7c9b34b20cdc26ce13cc6520b4364\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\abf7c9b34b20cdc26ce13cc6520b4364\AndroidManifest.xml:5:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6a5337a6c5dd6f48b89b37bf5c6d8857\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6a5337a6c5dd6f48b89b37bf5c6d8857\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\77c639b0f527804d909b822af6ce3aff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\77c639b0f527804d909b822af6ce3aff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\0c7192b09c11ecb95fb29136599cfefc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\0c7192b09c11ecb95fb29136599cfefc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\867c91377970cac4500d9e28f5651456\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\867c91377970cac4500d9e28f5651456\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e9f10f5204bc301fcece6ca965b18da7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e9f10f5204bc301fcece6ca965b18da7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\bd61c0aba59ba71ffd56d7ef4828ebaa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\bd61c0aba59ba71ffd56d7ef4828ebaa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7328dbdae648f988ba344eb0b033c214\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7328dbdae648f988ba344eb0b033c214\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7e83d5fc9cfbb4ce35d0138d4eef44e1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7e83d5fc9cfbb4ce35d0138d4eef44e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\90a06a0dbdf12fba875bf7e0be0fee48\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\90a06a0dbdf12fba875bf7e0be0fee48\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d09971c5dd8ebb508b1443d95a7cc096\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d09971c5dd8ebb508b1443d95a7cc096\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\timber-4.7.1.aar\4874dfde1d0f307ead5d6f0b43da16a9\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\timber-4.7.1.aar\4874dfde1d0f307ead5d6f0b43da16a9\AndroidManifest.xml:5:5-43
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:6.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-navigation-native-6.0.0.aar\2e36e361680d3dd3bb8a50b40c2b1eef\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:6.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-navigation-native-6.0.0.aar\2e36e361680d3dd3bb8a50b40c2b1eef\AndroidManifest.xml:5:5-44
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9cd890746e70147afb5bbea51c1ea5fb\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
+activity#com.mapbox.services.android.navigation.ui.v5.MapboxNavigationActivity
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-ui-0.33.2.aar\1409c942019051daa920669772a9e813\AndroidManifest.xml:10:9-106
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-ui-0.33.2.aar\1409c942019051daa920669772a9e813\AndroidManifest.xml:10:19-103
+uses-feature#0x00020000
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:9:5-11:35
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:10:9-41
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:11:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:13:9-45
+uses-permission#android.permission.INTERNET
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:16:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:23:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:12:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:16:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-0.33.2.aar\6eb3b36369b269a9226dfdeefa27fb7b\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-0.33.2.aar\6eb3b36369b269a9226dfdeefa27fb7b\AndroidManifest.xml:9:22-74
+service#com.mapbox.services.android.navigation.v5.navigation.NavigationService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-0.33.2.aar\6eb3b36369b269a9226dfdeefa27fb7b\AndroidManifest.xml:12:9-106
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-0.33.2.aar\6eb3b36369b269a9226dfdeefa27fb7b\AndroidManifest.xml:12:18-103
+service#com.mapbox.services.android.telemetry.service.TelemetryService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-0.33.2.aar\6eb3b36369b269a9226dfdeefa27fb7b\AndroidManifest.xml:14:9-98
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-0.33.2.aar\6eb3b36369b269a9226dfdeefa27fb7b\AndroidManifest.xml:14:18-95
+service#com.mapbox.android.telemetry.TelemetryService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:19:9-81
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:19:18-78
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f9df9b64e06d5a69eaa85a25c31ab01c\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f9df9b64e06d5a69eaa85a25c31ab01c\AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f9df9b64e06d5a69eaa85a25c31ab01c\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f9df9b64e06d5a69eaa85a25c31ab01c\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f9df9b64e06d5a69eaa85a25c31ab01c\AndroidManifest.xml:24:13-83
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2b71d02f995613e53179da07b1156123\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2b71d02f995613e53179da07b1156123\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2b71d02f995613e53179da07b1156123\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2b71d02f995613e53179da07b1156123\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\f6f8ba3d62ebe168562eca25a6a93a15\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\f6f8ba3d62ebe168562eca25a6a93a15\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\f6f8ba3d62ebe168562eca25a6a93a15\AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9cd890746e70147afb5bbea51c1ea5fb\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9cd890746e70147afb5bbea51c1ea5fb\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9cd890746e70147afb5bbea51c1ea5fb\AndroidManifest.xml:27:13-51
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\abf7c9b34b20cdc26ce13cc6520b4364\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\abf7c9b34b20cdc26ce13cc6520b4364\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\abf7c9b34b20cdc26ce13cc6520b4364\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\abf7c9b34b20cdc26ce13cc6520b4364\AndroidManifest.xml:9:13-64

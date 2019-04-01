@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_name">הודעות ניווט</string>
+    <string name="dropoff_dialog_negative_text">ביטול</string>
+    <string name="dropoff_dialog_positive_text">התחל</string>
+    <string name="dropoff_dialog_text">האם תרצה לנווט אל היעד הבא?</string>
+    <string name="end_navigation">סיום ניווט</string>
+    <string name="feedback_bad_route">דרך\nמשובשת</string>
+    <string name="feedback_confusing_instruction">הוראות\nמבולבלות</string>
+    <string name="feedback_general_issue">בעיה אחרת\nבמפה</string>
+    <string name="feedback_missing_exit">יציאה\nלא קיימת</string>
+    <string name="feedback_missing_road">דרך\nלא קיימת</string>
+    <string name="feedback_not_allowed">לא\nמורשה</string>
+    <string name="feedback_report_traffic">דיווח\nתנועה</string>
+    <string name="feedback_road_closure">דרך\nסגורה</string>
+    <string name="mapbox_attributionErrorNoBrowser">לא מותקן דפדפן אינטרנט במכשיר, לא ניתן לפתוח את דף האינטרנט.</string>
+    <string name="mapbox_attributionTelemetryMessage">אתם מסייעים לשפר את המפות של OpenStreetMap ו Mapbox באמצעות שיתוף אנונימי של נתוני השימוש.</string>
+    <string name="mapbox_attributionTelemetryNegative">לא מסכים/מה</string>
+    <string name="mapbox_attributionTelemetryNeutral">מידע נוסף</string>
+    <string name="mapbox_attributionTelemetryPositive">מסכים/מה</string>
+    <string name="mapbox_attributionTelemetryTitle">שפר את המפות של Mapbox </string>
+    <string name="mapbox_attributionsDialogTitle">Mapbox Maps SDK for Android</string>
+    <string name="mapbox_attributionsIconContentDescription">סמל שיוך. הפעל כדי להציג תיבת דו-שיח של שיוך.</string>
+    <string name="mapbox_compassContentDescription">מצפן. הפעל בכדי לקבע את כיוון המפה צפונה.</string>
+    <string name="mapbox_mapActionDescription">מציג מפה שנוצרה עם Mapbox. גלול באמצעות גרירה עם שתי אצבעות, זום באמצעות צביטה עם שתי אצבעות.</string>
+    <string name="mapbox_myLocationViewContentDescription">סמן מיקום. מציג את המיקום הנוכחי שלך על המפה.</string>
+    <string name="mapbox_offline_error_region_definition_invalid">בתנאי ש- OfflineRegionDefinition אינו מתאים לגבולות העולם: %s</string>
+    <string name="mapbox_telemetrySettings">הגדרות טלמטריות</string>
+    <string name="muted">שמע כבוי</string>
+    <string name="notification_arrival_time_format">הגעה ב%s</string>
+    <string name="re_center">מרכוז</string>
+    <string name="rerouting">מחשב מסלול מחדש...</string>
+    <string name="unmuted">שמע פועל</string>
+</resources>
