@@ -14,6 +14,9 @@ import com.google.android.gms.tasks.Task
 import com.mapbox.android.core.permissions.PermissionsListener
 import com.mapbox.android.core.permissions.PermissionsManager
 import kotlinx.android.synthetic.main.activity_main.*
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
 
 class MainActivity : AppCompatActivity(), PermissionsListener {
 
@@ -30,6 +33,9 @@ class MainActivity : AppCompatActivity(), PermissionsListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        //app crash reporting plugin
+        AppCenter.start(application, "4406525c-244f-49ed-9fb2-9ca354573ad2", Analytics::class.java, Crashes::class.java)
 
         val actionBar = supportActionBar
 
@@ -56,6 +62,17 @@ class MainActivity : AppCompatActivity(), PermissionsListener {
         near_btn.setOnClickListener {
             place = "near"
             runMap()
+        }
+        TabMenu.setOnClickListener {
+            var tab = Intent(applicationContext, TabbedActivity::class.java)
+            startActivity(tab)
+
+            overridePendingTransition(R.anim.abc_slide_in_top, R.anim.abc_slide_out_top)
+        }
+        P_places.setOnClickListener{
+            val AK = Intent(applicationContext, Main2Activity::class.java)
+            startActivity(AK)
+            overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
         }
 
     }

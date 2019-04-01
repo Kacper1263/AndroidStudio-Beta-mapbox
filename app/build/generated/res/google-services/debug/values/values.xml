@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://pppw-crash-logi.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">334916762640</string>
+    <string name="google_api_key" translatable="false">AIzaSyBLV8vyKaTfxL4XJqZA5FWIy137KiqQlO0</string>
+    <string name="google_app_id" translatable="false">1:334916762640:android:d22517f3df968d45</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBLV8vyKaTfxL4XJqZA5FWIy137KiqQlO0</string>
+    <string name="google_storage_bucket" translatable="false">pppw-crash-logi.appspot.com</string>
+    <string name="project_id" translatable="false">pppw-crash-logi</string>
+</resources>

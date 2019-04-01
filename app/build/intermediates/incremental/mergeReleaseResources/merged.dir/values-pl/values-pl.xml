@@ -48,6 +48,7 @@
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Zaloguj się przez Google"</string>
     <string name="main_title_text">Powstańcy</string>
     <string name="mapbox_access_token">pk.eyJ1Ijoia2FjcGVyMTI2MyIsImEiOiJjanRyajBwNGEwcXBoNGFydnJjaTlyd2hpIn0.W8qoeZmY7-unZIvhmAhjHw</string>
+    <string name="marker_info">Informacje o tym miejscu</string>
     <string msgid="1685185767093348095" name="mr_button_content_description">"Przycisk Cast"</string>
     <string msgid="1350095112462806159" name="mr_cast_button_connected">"Przycisk Cast – połączono"</string>
     <string msgid="8959304318293841992" name="mr_cast_button_connecting">"Przycisk Cast – łączę"</string>

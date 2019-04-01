@@ -3,6 +3,7 @@ Przewodnik Po Powstaniu Warszawskim - Beta (mapbox)
 
 ## Change log:
 
+* 01.04.2019 - <b>Add Progress Dialog, Scrolling Activity, bug fixes, signed apk (app/signed), improvements and more</b>
 * 01.04.2019 - <b>Progress Dialog, bug fixes</b>
 * 31.03.2019 - <b>Improvements, bug fixes</b>
 * 31.03.2019 - <b>Add directions and navigation UI</b>

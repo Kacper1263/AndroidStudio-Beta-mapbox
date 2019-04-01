@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Apr 01 15:08:52 CEST 2019
+#Mon Apr 01 22:30:42 CEST 2019
 4.path=lib/armeabi-v7a/libmapbox-gl.so
 8.set=NATIVE_RESOURCE
 6.path=lib/x86/libnavigator-android.so

@@ -1004,6 +1004,10 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+dimen app_bar_height
+dimen appbar_padding_top
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -1061,6 +1065,7 @@ dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
 dimen fab_feedback_margin_top
+dimen fab_margin
 dimen fab_margin_bottom
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
@@ -1171,6 +1176,7 @@ dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
 dimen summary_bottomsheet_height
+dimen text_margin
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1621,8 +1627,10 @@ id CTRL
 id ConstraintLayout
 id FUNCTION
 id META
+id P_places
 id SHIFT
 id SYM
+id TabMenu
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1640,6 +1648,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -1652,6 +1661,8 @@ id alertTitle
 id alertView
 id all
 id always
+id app_bar
+id appbar
 id arrivalTimeText
 id async
 id attributionView
@@ -1660,6 +1671,11 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button
+id button2
+id button3
+id button4
+id button5
 id buttonPanel
 id cancelBtn
 id cancel_action
@@ -1673,6 +1689,7 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id compassView
+id constraintLayout
 id container
 id content
 id contentPanel
@@ -1703,6 +1720,8 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id extraInstructionContentLayout
+id fab
+id fab2
 id feedbackFab
 id feedbackImage
 id feedbackItems
@@ -1757,10 +1776,12 @@ id linearLayout3
 id listMode
 id list_item
 id logoView
+id main_content
 id maneuverImage
 id maneuverView
 id mapView
 id map_btn
+id marker_info
 id masked
 id media_actions
 id media_route_menu_item
@@ -1816,7 +1837,6 @@ id mr_volume_slider
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
-id navi_btn
 id navigationLayout
 id navigationMapView
 id navigationView
@@ -1878,6 +1898,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id section_label
 id select_dialog_listview
 id selected
 id sheetShadow
@@ -1935,6 +1956,8 @@ id timeRemainingText
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar
+id toolbar_layout
 id top
 id topPanel
 id touch_outside
@@ -2014,10 +2037,18 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_main2
 layout activity_maps
 layout activity_navigation
+layout activity_scrolling
+layout activity_scrolling2
+layout activity_scrolling3
+layout activity_tabbed
 layout alert_view_layout
 layout collapsed_navigation_notification_layout
+layout content_scrolling
+layout content_scrolling2
+layout content_scrolling3
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -2038,6 +2069,7 @@ layout expanded_navigation_notification_layout
 layout feedback_bottom_sheet_layout
 layout feedback_button_layout
 layout feedback_viewholder_layout
+layout fragment_tabbed
 layout instruction_content_layout
 layout instruction_layout
 layout instruction_layout_alt
@@ -2095,6 +2127,8 @@ layout turn_lane_layout
 layout turn_lane_listitem_layout
 layout wayname_view_layout
 menu menu_locations
+menu menu_scrolling
+menu menu_tabbed
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals numberOfDays
@@ -2138,6 +2172,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_settings
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -2183,6 +2218,7 @@ string google_maps_key
 string hide_bottom_view_on_scroll_behavior
 string hr
 string kilometers
+string large_text
 string main_title_text
 string mapbox_access_token
 string mapbox_attributionErrorNoBrowser
@@ -2208,6 +2244,7 @@ string mapbox_style_traffic_night
 string mapbox_telemetryImproveMap
 string mapbox_telemetryLink
 string mapbox_telemetrySettings
+string marker_info
 string meters
 string miles
 string min
@@ -2252,9 +2289,12 @@ string re_center
 string report_problem
 string rerouting
 string search_menu_title
+string section_format
 string start_navigating
 string status_bar_notification_info_overflow
 string title_activity_maps
+string title_activity_scrolling
+string title_activity_tabbed
 string unmuted
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -2263,6 +2303,9 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style AppTheme
+style AppTheme_AppBarOverlay
+style AppTheme_NoActionBar
+style AppTheme_PopupOverlay
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

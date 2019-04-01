@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "334916762640",
+    "firebase_url": "https://pppw-crash-logi.firebaseio.com",
+    "project_id": "pppw-crash-logi",
+    "storage_bucket": "pppw-crash-logi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334916762640:android:d22517f3df968d45",
+        "android_client_info": {
+          "package_name": "pl.kacpermarcinkiewicz.pppw"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLV8vyKaTfxL4XJqZA5FWIy137KiqQlO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334916762640-m9vve6g7km4v483kbj21gdbc4hhhfjpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

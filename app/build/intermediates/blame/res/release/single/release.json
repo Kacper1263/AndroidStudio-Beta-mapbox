@@ -1520,6 +1520,10 @@
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\mapbox-android-navigation-0.33.2.aar\\6eb3b36369b269a9226dfdeefa27fb7b\\res\\drawable-hdpi-v4\\ic_maneuver_roundabout.png"
     },
     {
+        "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\menu_menu_scrolling.xml.flat",
+        "source": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\src\\main\\res\\menu\\menu_scrolling.xml"
+    },
+    {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_ic_traffic.png.flat",
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\mapbox-android-navigation-ui-0.33.2.aar\\1409c942019051daa920669772a9e813\\res\\drawable-xxxhdpi-v4\\ic_traffic.png"
     },
@@ -1730,6 +1734,10 @@
     {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\a13f105081764d04a487def5f3c6ae84\\res\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml"
+    },
+    {
+        "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main2.xml.flat",
+        "source": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\src\\main\\res\\layout\\activity_main2.xml"
     },
     {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -2516,6 +2524,10 @@
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\mapbox-android-sdk-7.2.0.aar\\13a19b27e02473866e87e197ae9623cb\\res\\drawable-xxhdpi-v4\\mapbox_logo_helmet.png"
     },
     {
+        "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_scrolling.xml.flat",
+        "source": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\src\\main\\res\\layout\\activity_scrolling.xml"
+    },
+    {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_19_dark.png.flat",
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\cddb66fbbd8ca75a22700f3a310eb384\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_19_dark.png"
     },
@@ -2762,6 +2774,10 @@
     {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\291c0fe39a556d178ca961f207d15365\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\layout_content_scrolling.xml.flat",
+        "source": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\src\\main\\res\\layout\\content_scrolling.xml"
     },
     {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_11_light.png.flat",
@@ -3624,6 +3640,10 @@
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\mapbox-android-navigation-0.33.2.aar\\6eb3b36369b269a9226dfdeefa27fb7b\\res\\drawable-xxhdpi-v4\\ic_maneuver_turn_0.png"
     },
     {
+        "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_tabbed.xml.flat",
+        "source": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\src\\main\\res\\layout\\fragment_tabbed.xml"
+    },
+    {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\291c0fe39a556d178ca961f207d15365\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
@@ -4006,6 +4026,10 @@
     {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connected_10_dark.png.flat",
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\cddb66fbbd8ca75a22700f3a310eb384\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_10_dark.png"
+    },
+    {
+        "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\menu_menu_tabbed.xml.flat",
+        "source": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\src\\main\\res\\menu\\menu_tabbed.xml"
     },
     {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connecting_20_dark.png.flat",
@@ -4748,6 +4772,10 @@
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\291c0fe39a556d178ca961f207d15365\\res\\anim\\abc_tooltip_enter.xml"
     },
     {
+        "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_tabbed.xml.flat",
+        "source": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\src\\main\\res\\layout\\activity_tabbed.xml"
+    },
+    {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connected_14_light.png.flat",
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\cddb66fbbd8ca75a22700f3a310eb384\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_14_light.png"
     },
@@ -5156,6 +5184,10 @@
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\mapbox-android-navigation-0.33.2.aar\\6eb3b36369b269a9226dfdeefa27fb7b\\res\\drawable-hdpi-v4\\ic_maneuver_turn_30.png"
     },
     {
+        "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_scrolling3.xml.flat",
+        "source": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\src\\main\\res\\layout\\activity_scrolling3.xml"
+    },
+    {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\291c0fe39a556d178ca961f207d15365\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
@@ -5296,6 +5328,10 @@
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\a13f105081764d04a487def5f3c6ae84\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
+        "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\layout_content_scrolling3.xml.flat",
+        "source": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\src\\main\\res\\layout\\content_scrolling3.xml"
+    },
+    {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4_ic_maneuver_roundabout_sharp_right.png.flat",
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\mapbox-android-navigation-0.33.2.aar\\6eb3b36369b269a9226dfdeefa27fb7b\\res\\drawable-ldpi-v4\\ic_maneuver_roundabout_sharp_right.png"
     },
@@ -5412,6 +5448,10 @@
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\mapbox-android-sdk-7.2.0.aar\\13a19b27e02473866e87e197ae9623cb\\res\\drawable-mdpi-v4\\mapbox_logo_icon.png"
     },
     {
+        "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\layout_content_scrolling2.xml.flat",
+        "source": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\src\\main\\res\\layout\\content_scrolling2.xml"
+    },
+    {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_ic_dialog_close_light.png.flat",
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\cddb66fbbd8ca75a22700f3a310eb384\\res\\drawable-hdpi-v4\\ic_dialog_close_light.png"
     },
@@ -5498,6 +5538,10 @@
     {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_maneuver_depart_right.png.flat",
         "source": "C:\\Users\\Kacper\\.gradle\\caches\\transforms-1\\files-1.1\\mapbox-android-navigation-0.33.2.aar\\6eb3b36369b269a9226dfdeefa27fb7b\\res\\drawable-xhdpi-v4\\ic_maneuver_depart_right.png"
+    },
+    {
+        "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_scrolling2.xml.flat",
+        "source": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\src\\main\\res\\layout\\activity_scrolling2.xml"
     },
     {
         "merged": "F:\\__Android_Studio_Projekty\\PPPW-mapbox\\app\\build\\intermediates\\res\\merged\\release\\drawable_mapbox_mylocation_bg_shape.xml.flat",

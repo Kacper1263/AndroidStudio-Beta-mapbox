@@ -251,7 +251,7 @@
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
-    <color name="mapboxBlue">#4264fb</color>
+    <color name="mapboxBlue">#4264FB</color>
     <color name="mapboxGrayLight">#C6D2E1</color>
     <color name="mapboxWhite">#FFFFFF</color>
     <color name="mapbox_blue">#1E8CAB</color>
@@ -421,6 +421,10 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -478,6 +482,7 @@
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <dimen name="fab_feedback_margin_top">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
     <dimen name="fab_margin_bottom">8dp</dimen>
     <dimen name="fastscroll_default_thickness">8dp</dimen>
     <dimen name="fastscroll_margin">0dp</dimen>
@@ -584,6 +589,7 @@
     <dimen name="subtitle_outline_width">2dp</dimen>
     <dimen name="subtitle_shadow_offset">2dp</dimen>
     <dimen name="subtitle_shadow_radius">2dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
     <dimen name="tooltip_corner_radius">2dp</dimen>
     <dimen name="tooltip_horizontal_padding">16dp</dimen>
     <dimen name="tooltip_margin">8dp</dimen>
@@ -697,6 +703,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_settings">Settings</string>
     <string name="app_name">PPPW</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
@@ -742,8 +749,13 @@
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">android.support.design.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="hr">hr</string>
     <string name="kilometers">km</string>
+    <string name="large_text">
+        Hello world from me rofl
+    </string>
     <string name="main_title_text">Powstańcy</string>
-    <string name="mapbox_access_token">pk.eyJ1Ijoia2FjcGVyMTI2MyIsImEiOiJjanRyajBwNGEwcXBoNGFydnJjaTlyd2hpIn0.W8qoeZmY7-unZIvhmAhjHw</string>
+    <string name="mapbox_access_token">
+        pk.eyJ1Ijoia2FjcGVyMTI2MyIsImEiOiJjanRyajBwNGEwcXBoNGFydnJjaTlyd2hpIn0.W8qoeZmY7-unZIvhmAhjHw
+    </string>
     <string name="mapbox_attributionErrorNoBrowser">No web browser installed on device, can\'t open web page.</string>
     <string name="mapbox_attributionTelemetryMessage">You are helping to make OpenStreetMap and Mapbox maps better by contributing anonymous usage data.</string>
     <string name="mapbox_attributionTelemetryNegative">Disagree</string>
@@ -767,6 +779,7 @@
     <string name="mapbox_telemetryImproveMap">Improve This Map</string>
     <string name="mapbox_telemetryLink" translatable="false">https://www.mapbox.com/telemetry/</string>
     <string name="mapbox_telemetrySettings">Telemetry Settings</string>
+    <string name="marker_info">Information about this place</string>
     <string name="meters">m</string>
     <string name="miles">mi</string>
     <string name="min">min</string>
@@ -811,9 +824,12 @@
     <string name="report_problem">Report Problem</string>
     <string name="rerouting">Rerouting…</string>
     <string name="search_menu_title">Search</string>
+    <string name="section_format">Hello World from section: %1$d</string>
     <string name="start_navigating">Rozpocznij nawigację</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
     <string name="unmuted">Unmuted</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
@@ -830,6 +846,12 @@
         <item name="colorPrimaryDark">#353535</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
         <item name="listLayout">@layout/abc_select_dialog_material</item>

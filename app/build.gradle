@@ -4,6 +4,8 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+
+
 android {
     signingConfigs {
         config {
@@ -25,6 +27,10 @@ android {
     repositories {
         mavenCentral()
         maven { url 'https://mapbox.bintray.com/mapbox' }
+        maven {
+            url 'https://maven.fabric.io/public'
+        }
+
     }
     buildTypes {
         release {
@@ -60,4 +66,9 @@ dependencies {
     implementation('com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.33.2') {
         transitive = true
     }
+
+    //crash logs plugin
+    def appCenterSdkVersion = '1.11.4'
+    implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
+    implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
 }

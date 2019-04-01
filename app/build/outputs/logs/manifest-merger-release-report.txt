@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [com.android.support:mediarouter-v7:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-28.0.0.aar\cddb66fbbd8ca75a22700f3a310eb384\AndroidManifest.xml:17:1-22:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.11.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-plugin-locationlayer-0.11.0.aar\6eff28fbd3c3911bf43344dbdeb50938\AndroidManifest.xml:2:1-9:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-ui-0.33.2.aar\1409c942019051daa920669772a9e813\AndroidManifest.xml:2:1-13:12
@@ -17,6 +17,8 @@ MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\0bc0d22209e884325a86d87605cb2e8b\AndroidManifest.xml:2:1-9:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:2:1-22:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:2:1-14:12
+MERGED from [com.microsoft.appcenter:appcenter-analytics:1.11.4] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcenter-analytics-1.11.4.aar\e5c302b41df1c66385068747b8a8650e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.microsoft.appcenter:appcenter-crashes:1.11.4] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcenter-crashes-1.11.4.aar\4cba325f0bb90a62fdc306604858e391\AndroidManifest.xml:2:1-11:12
 MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f9df9b64e06d5a69eaa85a25c31ab01c\AndroidManifest.xml:17:1-30:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2b71d02f995613e53179da07b1156123\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\7856c66234a9792bedc4adcbe4a3b527\AndroidManifest.xml:17:1-24:12
@@ -57,34 +59,35 @@ MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Kacper\.gradle\caches\tra
 MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\90a06a0dbdf12fba875bf7e0be0fee48\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d09971c5dd8ebb508b1443d95a7cc096\AndroidManifest.xml:17:1-22:12
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\timber-4.7.1.aar\4874dfde1d0f307ead5d6f0b43da16a9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.microsoft.appcenter:appcenter:1.11.4] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.4.aar\0e0df48dd1485a519a8230b3c093e709\AndroidManifest.xml:2:1-14:12
 MERGED from [com.mapbox.navigator:mapbox-navigation-native:6.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-navigation-native-6.0.0.aar\2e36e361680d3dd3bb8a50b40c2b1eef\AndroidManifest.xml:2:1-7:12
-INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:3:11-48
 		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
 		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:10:5-78
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:9:5-78
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:15:5-79
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:15:5-79
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:11:5-79
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:10:22-76
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:9:22-76
 application
-ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:12:5-54:19
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:11:5-62:19
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-ui-0.33.2.aar\1409c942019051daa920669772a9e813\AndroidManifest.xml:9:5-11:19
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-ui-0.33.2.aar\1409c942019051daa920669772a9e813\AndroidManifest.xml:9:5-11:19
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.33.2] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-navigation-0.33.2.aar\6eb3b36369b269a9226dfdeefa27fb7b\AndroidManifest.xml:11:5-15:19
@@ -122,61 +125,81 @@ MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kacper\.gradle\caches
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2305a302da1d1f69ed6f2148e562f443\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:17:13-39
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:16:13-39
 	android:label
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:15:13-45
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:14:13-45
 	android:roundIcon
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:16:13-58
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:15:13-58
 	android:icon
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:14:13-47
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:13:13-47
 	android:allowBackup
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:13:13-39
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:12:13-39
 	android:theme
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:18:13-44
-meta-data#com.google.android.geo.API_KEY
-ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:28:9-30:58
-	android:value
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:30:17-56
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:17:13-44
+activity#pl.kacpermarcinkiewicz.pppw.Main2Activity
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:18:9-19:20
 	android:name
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:29:17-62
-meta-data#preloaded_fonts
-ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:31:9-94
-	android:resource
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:31:51-92
-	android:name
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:31:20-50
-activity#pl.kacpermarcinkiewicz.pppw.MapsActivity
-ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:33:9-46:20
-	android:parentActivityName
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:36:17-59
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:18:19-48
+activity#pl.kacpermarcinkiewicz.pppw.ScrollingActivity
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:20:9-24:20
 	android:label
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:35:17-60
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:22:17-65
+	android:theme
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:23:17-60
 	android:name
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:34:17-45
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:21:17-50
+activity#pl.kacpermarcinkiewicz.pppw.TabbedActivity
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:25:9-29:20
+	android:label
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:27:17-62
+	android:theme
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:28:17-60
+	android:name
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:26:17-47
+meta-data#com.google.android.geo.API_KEY
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:38:9-40:58
+	android:value
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:40:17-56
+	android:name
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:39:17-62
+meta-data#preloaded_fonts
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:41:9-43:60
+	android:resource
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:43:17-58
+	android:name
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:42:17-47
+activity#pl.kacpermarcinkiewicz.pppw.MapsActivity
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:45:9-54:20
+	android:parentActivityName
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:48:17-59
+	android:label
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:47:17-60
+	android:name
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:46:17-45
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
-ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:40:13-44:29
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:49:13-53:29
 action#android.intent.action.VIEW
-ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:41:17-68
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:50:17-68
 	android:name
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:41:25-66
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:50:25-66
 category#android.intent.category.DEFAULT
-ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:43:17-75
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:52:17-75
 	android:name
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:43:27-73
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:52:27-73
 activity#pl.kacpermarcinkiewicz.pppw.MainActivity
-ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:47:9-53:20
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:55:9-61:20
 	android:name
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:47:19-47
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:55:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:48:13-52:29
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:56:13-60:29
 action#android.intent.action.MAIN
-ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:49:17-68
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:57:17-68
 	android:name
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:49:25-66
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:57:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:51:17-76
+ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:59:17-76
 	android:name
-		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:51:27-74
+		ADDED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml:59:27-74
 uses-sdk
 INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
@@ -207,6 +230,10 @@ MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacpe
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-telemetry-4.2.0.aar\5efab7b033708fb52a8cd36c321586fc\AndroidManifest.xml:11:5-13:41
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-analytics:1.11.4] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcenter-analytics-1.11.4.aar\e5c302b41df1c66385068747b8a8650e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-analytics:1.11.4] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcenter-analytics-1.11.4.aar\e5c302b41df1c66385068747b8a8650e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-crashes:1.11.4] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcenter-crashes-1.11.4.aar\4cba325f0bb90a62fdc306604858e391\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-crashes:1.11.4] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcenter-crashes-1.11.4.aar\4cba325f0bb90a62fdc306604858e391\AndroidManifest.xml:7:5-9:41
 MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f9df9b64e06d5a69eaa85a25c31ab01c\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f9df9b64e06d5a69eaa85a25c31ab01c\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2b71d02f995613e53179da07b1156123\AndroidManifest.xml:20:5-44
@@ -287,6 +314,8 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Kacper\.gradle\ca
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d09971c5dd8ebb508b1443d95a7cc096\AndroidManifest.xml:20:5-44
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\timber-4.7.1.aar\4874dfde1d0f307ead5d6f0b43da16a9\AndroidManifest.xml:5:5-43
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\timber-4.7.1.aar\4874dfde1d0f307ead5d6f0b43da16a9\AndroidManifest.xml:5:5-43
+MERGED from [com.microsoft.appcenter:appcenter:1.11.4] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.4.aar\0e0df48dd1485a519a8230b3c093e709\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter:1.11.4] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.4.aar\0e0df48dd1485a519a8230b3c093e709\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mapbox.navigator:mapbox-navigation-native:6.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-navigation-native-6.0.0.aar\2e36e361680d3dd3bb8a50b40c2b1eef\AndroidManifest.xml:5:5-44
 MERGED from [com.mapbox.navigator:mapbox-navigation-native:6.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-navigation-native-6.0.0.aar\2e36e361680d3dd3bb8a50b40c2b1eef\AndroidManifest.xml:5:5-44
 INJECTED from F:\__Android_Studio_Projekty\PPPW-mapbox\app\src\main\AndroidManifest.xml
@@ -323,6 +352,8 @@ uses-permission#android.permission.INTERNET
 ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:16:5-67
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:24:5-67
+MERGED from [com.microsoft.appcenter:appcenter:1.11.4] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.4.aar\0e0df48dd1485a519a8230b3c093e709\AndroidManifest.xml:11:5-67
+MERGED from [com.microsoft.appcenter:appcenter:1.11.4] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.4.aar\0e0df48dd1485a519a8230b3c093e709\AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:16:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
@@ -331,6 +362,8 @@ MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\e45f9a3b5fe8bb42f147bdacfc117e93\AndroidManifest.xml:23:5-79
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:12:5-79
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-core-1.2.0.aar\8f6e2f37957b3773bb430d6feab51606\AndroidManifest.xml:12:5-79
+MERGED from [com.microsoft.appcenter:appcenter:1.11.4] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.4.aar\0e0df48dd1485a519a8230b3c093e709\AndroidManifest.xml:12:5-79
+MERGED from [com.microsoft.appcenter:appcenter:1.11.4] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.4.aar\0e0df48dd1485a519a8230b3c093e709\AndroidManifest.xml:12:5-79
 	android:name
 		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:7.2.0] C:\Users\Kacper\.gradle\caches\transforms-1\files-1.1\mapbox-android-sdk-7.2.0.aar\13a19b27e02473866e87e197ae9623cb\AndroidManifest.xml:17:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE

@@ -8,4 +8,5 @@
     <string name="start_navigating">Rozpocznij nawigację</string>
 
     <string name="noRouteFound">Nie znaleziono trasy</string>
+    <string name="marker_info">Informacje o tym miejscu</string>
 </resources>
